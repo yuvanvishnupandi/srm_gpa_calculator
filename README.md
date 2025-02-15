@@ -18,4 +18,4 @@ A simple and responsive **CGPA Calculator** with an animated background and mode
 ## 🚀 Installation
 1. **Clone this repository**  
    ```bash
-   git clone https://github.com/yuvanvishnupandi/cgpa-calculator.git
+   git clone https://github.com/yuvanvishnupandi/srm-cgpa-calculator.git
