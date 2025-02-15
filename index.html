@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRM CGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+
+</head>
+<body>
+
+    <div class="background"></div>
+
+    <div class="container">
+        <h1> SRM CGPA Calculator</h1>
+
+        <div id="subjects">
+            <div class="subject">
+                <input type="number" placeholder="Credits" class="credits">
+                <select class="grade">
+                    <option value="10">O</option>
+                    <option value="9">A+</option>
+                    <option value="8">A</option>
+                    <option value="7">B+</option>
+                    <option value="6">B</option>
+                    <option value="5">C</option>
+                    <option value="0">F</option>
+                </select>
+                <button class="remove">✖</button>
+            </div>
+        </div>
+
+        <button id="add">➕ Add Subject</button>
+        <button id="calculate">Calculate CGPA</button>
+
+        <h2>CGPA: <span id="result">0.00</span></h2>
+    </div>
+    
+    <footer>
+        <p>Designed by <span>Yuvan Vishnu</span></p>
+        <div class="social-icons">
+            
+            </a>
+            <a href="https://www.linkedin.com/in/yuvan-vishnu-pandi-1981ba329/" target="_blank" title="LinkedIn">
+                <i class='bx bxl-linkedin'></i>
+
+            <a href="https://www.instagram.com/i_am_yvp" target="_blank" title="Instagram">
+                <i class='bx bxl-instagram'></i>
+
+            <a href="https://github.com/yuvanvishnupandi" target="_blank" title="GitHub">
+                <i class='bx bxl-github'></i>
+            </a>
+            
+            </a>
+            
+                <a href="https://yuvanvishnupandi.github.io/yuvanvishnup.github.io/" target="_blank" title="Potfolio">
+                    <i class='bx bx-code-alt'></i>
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
