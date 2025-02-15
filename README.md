@@ -1,10 +1,10 @@
-# SRM CGPA Calculator
+# SRM GPA Calculator
 
-A simple and responsive **CGPA Calculator** with an animated background and modern UI.  
+A simple and responsive **GPA Calculator** with an animated background and modern UI.  
 
 ## Features
 - **Add & Remove Subjects Dynamically**
-- **Instant CGPA Calculation**
+- **Instant GPA Calculation**
 - **Responsive Design**
 - **Animated Gradient Background**
 
